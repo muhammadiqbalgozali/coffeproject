@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_main">
+    <!--Buat TEXT -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    <!--menu ordenya-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_jual"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/menufood"
+                    android:clickable="true"
+                     />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PESAN MENU"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                    <Button
+
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginRight="32dp"
+                        android:layout_marginLeft="32dp"
+                        android:background="@drawable/about"
+                        android:clickable="true"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ABOUT"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/komposisi"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="32dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/note"
+                        android:clickable="true"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="KETERANGAN MENU"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                    <Button
+
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginRight="32dp"
+                        android:layout_marginLeft="32dp"
+                        android:background="@drawable/exit"
+                        android:clickable="true"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="EXIT"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JualActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="COFFE"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="16dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Espresso" />
+
+            <EditText
+                android:id="@+id/et_espresso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_espresso"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Americano" />
+
+            <EditText
+                android:id="@+id/et_americano"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_americano"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Picollo" />
+
+            <EditText
+                android:id="@+id/et_picollo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_picollo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Singgle Origin" />
+
+            <EditText
+                android:id="@+id/et_singgleorigin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_singgleorigin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Cappucino" />
+
+            <EditText
+                android:id="@+id/et_cappucino"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_cappucino"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Cafe Late" />
+
+            <EditText
+                android:id="@+id/et_cafelate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_cafelate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Caramel Latte" />
+
+            <EditText
+                android:id="@+id/et_caramellatte"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_caramellatte"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Hazelnut Latte" />
+
+            <EditText
+                android:id="@+id/et_hazelnutlatte"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_hazelnutlatte"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="10dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DRINKS"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="16dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+        <!--Drink-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!--Base Choclate-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:text="Base Chocolate"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2sp"
+                    android:layout_margin="16dp"
+                    android:background="@color/colorBlack"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Choclate" />
+
+                    <EditText
+                        android:id="@+id/et_choclate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_choclate"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Choclate Caramel" />
+
+                    <EditText
+                        android:id="@+id/et_choclatecaramel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_choclatecaramel"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Choclate Hazelnut" />
+
+                    <EditText
+                        android:id="@+id/et_choclatehazelnut"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_choclatehazelnutlatte"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Choclate Vanilla" />
+
+                    <EditText
+                        android:id="@+id/et_choclatevanilla"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_choclatevanilla"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Choclate Avocado" />
+
+                    <EditText
+                        android:id="@+id/et_choclateavocado"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_choclateavocado"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Base Smotthise-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:text="Base Smoothes"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2sp"
+                    android:layout_margin="16dp"
+                    android:background="@color/colorBlack"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Avocado" />
+
+                    <EditText
+                        android:id="@+id/avocado"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_avocado"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Manggo" />
+
+                    <EditText
+                        android:id="@+id/et_manggo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_manggo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="fill"
+                        android:text="Strawberry" />
+
+                    <EditText
+                        android:id="@+id/et_strawberry"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:digits="0123456789."
+                        android:gravity="center_horizontal"
+                        android:hint="qty"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimaryDark">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_strawberry"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="0.45"
+                        android:gravity="center"
+                        android:text=" Total : Rp. 0 ,-"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="10dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+        <!--2 Drinks-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!--Base Tea-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left"
+                android:text="Base Tea"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:layout_margin="16dp"
+                android:background="@color/colorBlack"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Tea" />
+
+                <EditText
+                    android:id="@+id/et_tea"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_tea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Lemon Tea" />
+
+                <EditText
+                    android:id="@+id/et_lemontea"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_lemontea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Lychee Tea" />
+
+                <EditText
+                    android:id="@+id/et_lycheetea"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_lycheetea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Green Tea Latte" />
+
+                <EditText
+                    android:id="@+id/et_greentealatte"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_greentealatte"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Thai Tea" />
+
+                <EditText
+                    android:id="@+id/et_thaitea"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_thaitea"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Base Soda-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left"
+                android:text="Base Soda"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:layout_margin="16dp"
+                android:background="@color/colorBlack"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Strawberry Mojito Squash" />
+
+                <EditText
+                    android:id="@+id/strawberrymojitosquash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_strawberrymojitosquash"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Mojito Limenade Squash" />
+
+                <EditText
+                    android:id="@+id/et_mojitolimenadesquash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv__mojitolimenadesquash"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Mocha Squash" />
+
+                <EditText
+                    android:id="@+id/et_mochasquash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_mochasquash"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:gravity="fill"
+                    android:text="Lime Squash" />
+
+                <EditText
+                    android:id="@+id/et_limesquash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:digits="0123456789."
+                    android:gravity="center_horizontal"
+                    android:hint="qty"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tv_limesquash"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.45"
+                    android:gravity="center"
+                    android:text=" Total : Rp. 0 ,-"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--Main course-->
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="16dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MAIN COURSE"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="16dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Nasi Goreng 404" />
+
+            <EditText
+                android:id="@+id/et_nasgor404"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_nasgor404"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Nasi Goreng Kambing" />
+
+            <EditText
+                android:id="@+id/et_nasgorkambing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_nasgorkambing"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Chicken Katsu Curry" />
+
+            <EditText
+                android:id="@+id/et_chickenkatsucurry"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_chickenkatsucurry"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Chicken Katsu Sambal Matah" />
+
+            <EditText
+                android:id="@+id/et_chickenkatsusambalmatah"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_chickenkatsusambalmatah"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Chicken Mushroom" />
+
+            <EditText
+                android:id="@+id/et_chickenmushroom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_chickenmushroom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <!--Main Course bag 2-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Rosemary Chicken" />
+
+            <EditText
+                android:id="@+id/et_rosemarychicken"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_rosemarychicken"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Aglio Olio" />
+
+            <EditText
+                android:id="@+id/et_aglioolio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_aglioolio"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Bolognese" />
+
+            <EditText
+                android:id="@+id/et_bolognese"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_bolognese"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Fetucini Carbonara" />
+
+            <EditText
+                android:id="@+id/et_fetucinicarbonara"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_fetucinicarbonara"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Mie Nyemek" />
+
+            <EditText
+                android:id="@+id/et_mienyemek"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryDark">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_meinyemek"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="10dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SNACK DAN APETIZER"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="16dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <!--Base Snack-->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:gravity="fill"
+            android:text="Kentang Goreng Beneran" />
+
+        <EditText
+            android:id="@+id/et_kentanggoreng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:digits="0123456789."
+            android:gravity="center_horizontal"
+            android:hint="qty"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_kentanggoreng"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:text=" Total : Rp. 0 ,-"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:gravity="fill"
+            android:text="Pisang Goreng" />
+
+        <EditText
+            android:id="@+id/et_pisanggoreng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:digits="0123456789."
+            android:gravity="center_horizontal"
+            android:hint="qty"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_pisanggoreng"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:text=" Total : Rp. 0 ,-"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:gravity="fill"
+            android:text="Pangsit Goreng" />
+
+        <EditText
+            android:id="@+id/et_pagsitgoreng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:digits="0123456789."
+            android:gravity="center_horizontal"
+            android:hint="qty"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_pangsitgoreng"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:text=" Total : Rp. 0 ,-"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+        <!--Base Apetizer-->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:gravity="fill"
+            android:text="Chicken Burrito" />
+
+        <EditText
+            android:id="@+id/et_chickenburitto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:digits="0123456789."
+            android:gravity="center_horizontal"
+            android:hint="qty"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_chickenburitto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:text=" Total : Rp. 0 ,-"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:gravity="fill"
+            android:text="Mac n Chesse Sandwich" />
+
+        <EditText
+            android:id="@+id/et_sandwich"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:digits="0123456789."
+            android:gravity="center_horizontal"
+            android:hint="qty"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_sandwich"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:text=" Total : Rp. 0 ,-"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:gravity="fill"
+            android:text="Quesadilla" />
+
+        <EditText
+            android:id="@+id/et_quesadilla"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:digits="0123456789."
+            android:gravity="center_horizontal"
+            android:hint="qty"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_quesadilla"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:text=" Total : Rp. 0 ,-"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_margin="10dp"
+            android:background="@color/colorBlack"
+            android:visibility="visible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.315"
+            android:text="TOTAL HARGA : "
+            android:textAlignment="center"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tv_total_harga"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_weight="0.5"
+            android:paddingBottom="32dp"
+            android:text="Rp."
+            android:textSize="21sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_hitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@color/buttonColor"
+            android:clickable="true"
+            android:text="hitung"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@color/buttonColor"
+            android:clickable="true"
+            android:text="reset"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+</ScrollView>
+
